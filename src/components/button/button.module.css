@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  color: #241a34;
+  border: 1px solid #fff;
+  background-color: #fbb43d;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 1px solid #241a34;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 20px;
+}

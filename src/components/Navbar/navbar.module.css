@@ -1,0 +1,52 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  border-bottom: solid 0.5px #fbb43d;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu a {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #241a34;
+  transition: all 0.3s ease-in;
+  font-size: 0.9rem;
+}
+
+.menu a:hover {
+  color: #241a34;
+}
+
+.selected {
+  color: #241a34;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    overflow: hidden;
+    flex-direction: column;
+    max-height: 0;
+    transition: max-height 0.3s ease-in;
+    width: 100%;
+  }
+
+  .open {
+    max-height: 300px;
+  }
+}

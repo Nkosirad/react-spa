@@ -1,0 +1,19 @@
+.container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 0;
+  text-align: left;
+  color: #241a34;
+  text-transform: capitalize;
+}
